@@ -40,6 +40,13 @@ cd song-requirements
 pip install -r requirements.txt
 ```
 
+In order to support Spotipy's authentication, set the following environment variables:
+```bash
+export SPOTIPY_CLIENT_ID='your-spotify-client-id'
+export SPOTIPY_CLIENT_SECRET='your-spotify-client-secret'
+export SPOTIPY_REDIRECT_URI='your-app-redirect-url'
+```
+
 ## 🚀 Usage <a name="usage"></a>
 
 Once the work is ready for use, the instructions will be updated here.
